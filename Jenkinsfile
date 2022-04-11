@@ -1,7 +1,7 @@
 pipeline 
 {
     agent {       
-        label 'DEV' 
+        label any
     }
 	    parameters {
         booleanParam(name: "RUN_UNITTETS", defaultValue: true, description: "Select to run UnitTests")
